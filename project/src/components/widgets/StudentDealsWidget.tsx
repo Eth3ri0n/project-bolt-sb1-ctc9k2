@@ -1,15 +1,15 @@
-import React, { useState } from 'react';
 import {
-  Tag,
   ExternalLink,
-  ThumbsUp,
-  Timer,
   MapPin,
   Percent,
+  Tag,
+  ThumbsUp,
+  Timer,
   Users,
 } from 'lucide-react';
-import BaseWidget from './BaseWidget';
+import { useState } from 'react';
 import { WidgetProps } from '../../types/widget';
+import BaseWidget from './BaseWidget';
 
 interface Deal {
   id: string;
