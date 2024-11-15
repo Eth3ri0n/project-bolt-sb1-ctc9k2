@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased text-gray-900;
+  }
+}
+
+/* Accessibility improvements */
+@layer utilities {
+  .focus-visible {
+    @apply outline-none ring-2 ring-primary ring-offset-2;
+  }
+}
+
+/* High contrast mode support */
+@media (forced-colors: active) {
+  .high-contrast {
+    @apply border-[ButtonText];
+  }
+}

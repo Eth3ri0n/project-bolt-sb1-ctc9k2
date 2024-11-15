@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="50" viewBox="0 0 200 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M20 10h30v30h-30z" fill="#45DB96"/>
+  <path d="M35 15h30v30h-30z" fill="#F5D836"/>
+  <path d="M50 20h30v30h-30z" fill="#586DDD"/>
+  <text x="90" y="35" fill="white" font-family="Arial" font-size="16" font-weight="bold">
+    Université de Technologie
+  </text>
+</svg>
